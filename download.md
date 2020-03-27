@@ -22,7 +22,7 @@ Before attempting to use this iso, especially if burning to optical media such a
 ### using gpg
 
 1. download Detached signature.
-2. import my publick gpg key: `gpg --keyserver hkps://keys.openpgp.org --recv-keys EADD4A627F68A260D24BDF5A183E508302329913`
+2. import my publick pgp key: `gpg --keyserver hkps://keys.openpgp.org --recv-keys 6C7F7F22E0152A6FD5728592DAD6F3056C897266`
 3. verify .iso file: `gpg --verify TalkingArch-*.iso.sig  TalkingArch-*.iso`
 
 ## Build Your Own TalkingArch Iso
